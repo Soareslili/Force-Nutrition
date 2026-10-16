@@ -1,0 +1,102 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Manrope:wght@200..800&display=swap');
+
+
+
+@import "tailwindcss";
+
+@theme {
+
+    --font-display: "Barlow", sans-serif;
+    --font-sans: "Manrope", sans-serif;
+    
+  --color-radius: 0.75rem;
+
+  /* CORES PRINCIPAIS */
+  --color-background: #F8FAF6;
+  --color-foreground: #161B17;
+
+  /* CARDS */
+  --color-card: #FFFFFF;
+  --color-card-foreground: #161B17;
+
+  /* POPOVER */
+  --color-popover: #FFFFFF;
+  --color-popover-foreground: #161B17;
+
+  /* PRIMARY - VERDE ESCURO */
+  --color-primary: #153F29;
+  --color-primary-foreground: #FFFFFF;
+
+  /* SECONDARY */
+  --color-secondary: #F0F3EE;
+  --color-secondary-foreground: #153F29;
+
+  /* MUTED */
+  --color-muted: #F0F3EE;
+  --color-muted-foreground: #566158;
+
+  /* ACCENT */
+  --color-accent: #DFEDD9;
+  --color-accent-foreground: #153F29;
+
+  /* CORES PERSONALIZADAS FORCE */
+  --color-leaf: #43774A;
+  --color-energy: #90C045;
+  --color-energy-foreground: #161B17;
+  --color-ink: #161B17;
+  --color-surface: #F0F3EE;
+  --color-star: #EAB532;
+
+  /* DESTRUCTIVE */
+  --color-destructive: #E7000B;
+  --color-destructive-foreground: #FFFFFF;
+
+  /* BORDAS E INPUTS */
+  --color-border: #DFE3DC;
+  --color-input: #D8DCD4;
+  --color-ring: #43774A;
+
+  /* GRÁFICOS */
+  --color-chart-1: #90C045;
+  --color-chart-2: #43774A;
+  --color-chart-3: #153F29;
+  --color-chart-4: #EAB532;
+  --color-chart-5: #0D9298;
+
+  /* SIDEBAR */
+  --color-sidebar: #F8FAF6;
+  --color-sidebar-foreground: #161B17;
+  --color-sidebar-primary: #153F29;
+  --color-sidebar-primary-foreground: #FFFFFF;
+  --color-sidebar-accent: #F0F3EE;
+  --color-sidebar-accent-foreground: #153F29;
+  --color-sidebar-border: #DFE3DC;
+  --color-sidebar-ring: #43774A;
+
+  /* SOMBRAS */
+  --shadow-soft-v: 0 4px 20px -8px
+    color-mix(in oklab, var(--color-primary) 18%, transparent);
+
+  --shadow-lift-v: 0 18px 40px -16px
+    color-mix(in oklab, var(--color-primary) 30%, transparent);
+
+  --shadow-energy-v: 0 10px 30px -10px
+    color-mix(in oklab, var(--color-energy) 60%, transparent);
+
+  /* GRADIENTES */
+  --gradient-forest: linear-gradient(
+    120deg,
+    var(--color-primary) 0%,
+    #082B1B 60%,
+    var(--color-ink) 100%
+  );
+
+  --gradient-hero-fade: linear-gradient(
+    90deg,
+    color-mix(in oklab, var(--color-ink) 85%, transparent) 0%,
+    color-mix(in oklab, var(--color-ink) 40%, transparent) 50%,
+    transparent 75%
+  );
+}
