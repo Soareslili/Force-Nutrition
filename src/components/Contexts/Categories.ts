@@ -1,12 +1,12 @@
-import whey from "../assets/products/whey.png";
-import creatina from "../assets/products/creatina.png";
-import pre from "../assets/products/pretreino.png";
-import hiper from "../assets/products/hiper.png";
-import vit from "../assets/products/vitaminas.png";
-import amino from "../assets/products/aminoacidos.png";
-import thermo from "../assets/products/termogenico.png";
-import shaker from "../assets/products/shaker.png";
-import type { Category } from "../types/products";
+import whey from "../../assets/products/whey.png";
+import creatina from "../../assets/products/creatina.png";
+import pre from "../../assets/products/pretreino.png";
+import hiper from "../../assets/products/hiper.png";
+import vit from "../../assets/products/vitaminas.png";
+import amino from "../../assets/products/aminoacidos.png";
+import thermo from "../../assets/products/termogenico.png";
+import shaker from "../../assets/products/shaker.png";
+import type { Category } from "../../types/products";
 
 export const categories: Category[] = [
   { slug: "whey-protein", name: "Whey Protein", imageUrl: whey, description: "Proteínas para complementar sua alimentação diária." },
