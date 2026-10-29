@@ -29,8 +29,23 @@
       "stock": 40,
       "badge": ""
     },
-    {
+
+     {
       "productId": 3,
+      "name": "Force Whey 3W 900g",
+      "price": 229.90,
+      "oldPrice": 259.90,
+      "discount": 12,
+      "category": "whey-protein",
+      "description": "Suplemento proteico premium que combina whey protein concentrado, isolado e hidrolisado. Desenvolvido para complementar a ingestão diária de proteínas, com sabor chocolate e textura cremosa.",
+      "imageUrl": "/image/whey3w.jpg",
+      "rating": 4.8,
+      "reviews": 87,
+      "stock": 30,
+      "badge": "lancamento"
+    },
+    {
+      "productId": 4,
       "name": "Creatina",
       "price": 89.90,
       "oldPrice": 99.90,
@@ -112,6 +127,80 @@
       "reviews": 78,
       "stock": 22,
       "badge": ""
+    },
+
+      {
+      "productId": 9,
+      "name": "Force Shaker 700ml",
+      "price": 39.90,
+      "oldPrice": 49.90,
+      "discount": 20,
+      "category": "acessorios",
+      "description": "Coqueteleira esportiva de 700ml com design moderno nas cores preto e verde-limão. Possui tampa com fechamento prático, marcação de medidas e compartimento inferior para armazenar suplementos.",
+      "imageUrl": "/image/shakeresport.jpg",
+      "rating": 4.8,
+      "reviews": 132,
+      "stock": 60,
+      "badge": "mais-vendido"
+    },
+
+      {
+      "productId": 10,
+      "name": "Force Mega Mass 3kg",
+      "price": 199.90,
+      "oldPrice": 229.90,
+      "discount": 13,
+      "category": "hipercaloricos",
+      "description": "Suplemento hipercalórico desenvolvido para complementar a ingestão diária de calorias, proteínas e carboidratos. Sabor baunilha, com textura cremosa e preparo prático.",
+      "imageUrl": "/image/megamass.jpg",
+      "rating": 4.7,
+      "reviews": 82,
+      "stock": 30,
+      "badge": "oferta"
+    },
+     {
+      "productId": 11,
+      "name": "Force Multivitamin 60 Cápsulas",
+      "price": 69.90,
+      "oldPrice": 89.90,
+      "discount": 22,
+      "category": "vitaminas",
+      "description": "Suplemento alimentar multivitamínico em cápsulas, com proposta de reunir vitaminas e minerais essenciais para complementar a alimentação diária. Embalagem com 60 cápsulas.",
+      "imageUrl": "/image/multivitamin.jpg",
+      "rating": 4.8,
+      "reviews": 118,
+      "stock": 42,
+      "badge": "mais-vendido"
+    },
+      {
+      "productId": 12,
+      "name": "Force Extreme Pré-Treino 300g",
+      "price": 129.90,
+      "oldPrice": 149.90,
+      "discount": 13,
+      "category": "pre-treino",
+      "description": "Suplemento pré-treino em pó, sabor maçã verde, desenvolvido para complementar a rotina de suplementação esportiva. Embalagem de 300g, com proposta de 30 porções.",
+      "imageUrl": "/image/preextreme.jpg",
+      "rating": 4.9,
+      "reviews": 112,
+      "stock": 25,
+      "badge": "lancamento"
+    },
+     {
+      "productId": 13,
+      "name": "Force Creatine Micronized 300g",
+      "price": 99.90,
+      "oldPrice": 119.90,
+      "discount": 17,
+      "category": "creatina",
+      "description": "Creatina monohidratada micronizada em pó, desenvolvida para complementar a rotina de suplementação esportiva. Possui partículas finas que facilitam a mistura em água e outras bebidas. Embalagem de 300g.",
+      "imageUrl": "/image/creatinamicronizada.jpg",
+      "rating": 4.8,
+      "reviews": 132,
+      "stock": 38,
+      "badge": "oferta"
     }
   ]
 }
+
+

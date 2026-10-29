@@ -20,7 +20,6 @@ import { useCart } from "../Contexts/CartContext";
 
 const nav = [
   { to: "/", label: "Início" },
-  { to: "/products", label: "Produtos" },
   { to: "/mais-vendidos", label: "Mais Vendidos" },
   { to: "/lancamentos", label: "Lançamentos" },
   { to: "/sobre", label: "Sobre Nós" },
